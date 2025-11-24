@@ -4,7 +4,10 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center justify-center px-4 pt-16 bg-cover bg-center bg-no-repeat"
+      className="
+    relative min-h-screen flex items-center justify-center px-4 pt-16
+    bg-cover bg-[85%_50%] md:bg-center bg-no-repeat
+  "
       style={{ backgroundImage: "url(/maria-portrait.jpg)" }}
     >
       {/* Dark overlay for better text readability */}
