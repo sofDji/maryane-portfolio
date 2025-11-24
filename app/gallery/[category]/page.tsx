@@ -163,13 +163,6 @@ function GalleryContent({ gallery }: { gallery: (typeof galleries)[keyof typeof 
   return (
     <div className="min-h-screen bg-background">
       <div className="container mx-auto px-4 py-12">
-        <Link href="/#portfolio">
-          <Button variant="ghost" className="mb-8">
-            <ArrowLeft className="mr-2 h-4 w-4" />
-            Back to Portfolio
-          </Button>
-        </Link>
-
         <div className="mb-12">
           <h1 className="text-5xl md:text-6xl font-bold mb-4">{gallery.title}</h1>
           <p className="text-xl text-muted-foreground">{gallery.description}</p>
