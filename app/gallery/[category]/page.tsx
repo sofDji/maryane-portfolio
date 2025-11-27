@@ -14,6 +14,7 @@ const galleries = {
     description: "A shoot with actress Hanae Mensour, showcasing Hamoud Boualam's iconic drink.",
     video: null,
     images: [
+      { src: "/HAMOUD/REXLEUR_HAMOUD.mp4", title: "Hamoud video" },
       { src: "/HAMOUD/REX_HAMOUD_2_.webp", title: "Hamoud 2" },
       { src: "/HAMOUD/REX_HAMOUD_5.webp", title: "Hamoud 5" },
       { src: "/HAMOUD/REX_HAMOUD_1_.webp", title: "Hamoud 1" },
@@ -48,6 +49,7 @@ const galleries = {
       "At the request of Valentino, Marianne Guély traveled to boutiques in Milan, Paris, London, and Geneva for a live performance and the creation of a sculpture inspired by the Altorilievo, the emblem of the brand's new collection. My role involved managing content throughout Fashion Week, preparing a strategic communication plan, and collecting and analyzing event data, which led to a significant increase in views and followers—over 4900% growth in views and nearly 185% growth in followers.",
     video: null,
     images: [
+      { src: "/Valentino/video.mov", title: "Valentino stat" },
       { src: "/Valentino/DSC_0929.webp", title: "Valentino 1" },
       { src: "/Valentino/DSC_0827.webp", title: "Valentino 2" },
       { src: "/Valentino/DSC_0863.webp", title: "Valentino 3" },
@@ -74,14 +76,15 @@ const galleries = {
       "At Out of The Box Milan, the French team showcased the perfect pairing through three unique combinations: coffee and chocolate featuring Alain Ducasse, Mojo's Coffee Club, COW Cheese of the World, and Parcel's (world roasting champions) alongside 224L. I assisted in coordinating with our partners, created three distinct menus with detailed descriptions for each pairing, and managed all content and communication planning for the event and our participation as the French team.",
     video: null,
     images: [
+      { src: "/OOTB/REEL_2.mp4", title: "OOTB" },
       { src: "/OOTB/2.webp", title: "OOTB 1" },
       { src: "/OOTB/5.webp", title: "OOTB 2" },
       { src: "/OOTB/3.webp", title: "OOTB 3" },
       { src: "/OOTB/6.webp", title: "OOTB 4" },
       { src: "/OOTB/7.webp", title: "OOTB 5" },
-      { src: "/OOTB/8.webp", title: "OOTB 6" },
-      { src: "/OOTB/9.webp", title: "OOTB 7" },
-      { src: "/OOTB/0.webp", title: "OOTB 8" },
+      //{ src: "/OOTB/8.webp", title: "OOTB 6" },
+     // { src: "/OOTB/9.webp", title: "OOTB 7" },
+      //{ src: "/OOTB/0.webp", title: "OOTB 8" },
       { src: "/OOTB/00.webp", title: "OOTB 9" },
       { src: "/OOTB/10.webp", title: "OOTB 10" },
       { src: "/OOTB/11.webp", title: "OOTB 11" },
@@ -277,7 +280,7 @@ function GalleryContent({ gallery }: { gallery: (typeof galleries)[keyof typeof 
               className="group overflow-hidden rounded-2xl bg-card cursor-pointer"
               onClick={() => openLightbox(index)}
             >
-              <div className="aspect-[4/3] overflow-hidden relative">
+              <div className="aspect-[9/16] overflow-hidden relative">
                 <Image
                   src={image.src || "/placeholder.svg"}
                   alt={image.title || `Gallery image ${index + 1}`}
