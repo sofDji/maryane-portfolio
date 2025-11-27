@@ -60,6 +60,7 @@ const languages = [
 
 const skills = [
   "Adobe Suite",
+  "DaVinci Resolve",
   "CMS",
   "CRM",
   "SEO / SEA",
