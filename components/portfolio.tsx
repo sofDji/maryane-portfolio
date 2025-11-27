@@ -22,36 +22,39 @@ const portfolioItems = [
     image: "HAMOUD/REX_HAMOUD_2_.webp",
   },
   {
-    title: "Interview - Djowher",
+     title: "Interview - Djowher",
     category: "Filmmaking",
     slug: "djowher",
     image: "DJO/EDITED/5.webp",
+  },
+  {
+   title: "Cover Album Inspo - Aisha Fettaka",
+    category: "Photography",
+    slug: "delicate",
+    image: "Delicate/POST_01.webp",
   },
  {
     title: "Fashion Week 2024 - Valentino",
     category: "Marketing Campaign",
     slug: "FW24",
-    image: "Valentino/DSC_0893.webp",
+    image: "Valentino/DSC_0828.webp",
   },
-  {
-    title: "Cover Album Inspo - Aisha Fettaka",
-    category: "Photography",
-    slug: "delicate",
-    image: "Delicate/POST_01.webp",
-  },
+  
 
-  {
-    title: "Lancôme - Champs Élysées",
-    category: "Photography / Marketing Campaign",
-    slug: "lancome",
-    image: "LANCOME/Instore/DSC_0481.webp",
-  },
+  
 
   {
     title: "In The Wild - Misty",
     category: "Photography / Filmmaking",
     slug: "misty",
     image: "Amina/DSF0143.webp",
+  },
+
+  {
+    title: "Lancôme - Champs Élysées",
+    category: "Photography / Marketing Campaign",
+    slug: "lancome",
+    image: "LANCOME/Instore/DSC_0664.webp",
   },
 
   {
