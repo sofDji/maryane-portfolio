@@ -1,4 +1,4 @@
-import { alumniSansPinstripe, babylonica } from "@/app/layout"
+import { alumniSansPinstripe, babylonica, poiret } from "@/app/layout"
 
 export function Hero() {
   return (
@@ -16,7 +16,7 @@ export function Hero() {
       {/* Content */}
       <div className="container mx-auto max-w-6xl relative z-10">
         <div className="space-y-6 text-center md:text-left max-w-3xl">
-          <h1 className={`text-5xl md:text-7xl lg:text-8xl tracking-tight text-balance text-white drop-shadow-lg`}>
+          <h1 className={`text-5xl md:text-7xl lg:text-8xl tracking-tight text-balance text-white drop-shadow-lg ${poiret.className}`}>
             Maria Nadjem
           </h1>
           <p className="text-2xs md:text-2xs text-white/90 max-w-2xl text-balance drop-shadow-md">
